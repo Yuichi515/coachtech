@@ -1,0 +1,439 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+  }
+  
+  input, select {
+    vertical-align:middle;
+  }
+  /* ↑cssリセット ↓header*/
+  
+  .links {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    padding: 0 20px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navi-wrapper {
+    margin-left: auto;
+  }
+  
+  .navi {
+    padding: 0 15px;
+  }
+  
+  /* ↑header ↓main top */
+
+.top-wrapper {
+  background: url(../img/eyecatch.jpg);
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-left {
+  color: white;
+  opacity: 90%;
+  font-size: 36px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.top-right {
+  align-self: flex-end;
+  display: flex;
+  justify-content: stretch;
+  width: 50%;
+}
+
+.news-contents {
+  background-color: white;
+  margin: 0;
+  width: 100vw;
+}
+
+.news {
+  background-color: black;
+  text-align: right;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: white;
+}
+
+/* ↑top ↓mission */
+
+.mission-wrapper {
+  background-color: black;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.mission-img {
+  position: absolute;
+  width: 90vw;
+  top: 30%;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+
+.mission-text {
+  color: white;
+  flex-basis: 50%;
+  margin-top: 100px;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.mission-text h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.mission-text p {
+  line-height: 1.5;
+}
+
+.mission-text a {
+  text-decoration: none;
+  background-color: white;
+  width: 120px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/* ↑mission ↓service */
+
+.service-wrapper {
+ margin: 150px 0;
+ height: 1200px;
+ background-color: #e5e5e5;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  
+}
+
+.servise1-wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 300px;
+}
+
+.service1-text {
+  background-color: white;
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 15%;
+  padding: 30px;
+  z-index: 2;
+}
+
+.service1-text h1,
+.service1-text p {
+  padding: 10px 0;
+  line-height: 1.5;
+}
+
+.service1-text a {
+  text-decoration: none;
+  padding: 10px;
+  border: solid 1px;
+  margin-left: auto;
+  color: #000;
+}
+
+.service1-img {
+  position: absolute;
+  text-align: right;
+  width: 50wv;
+}
+
+.servise2-wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  position: relative;
+}
+
+.service2-text {
+  background-color: white;
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 40%;
+  padding: 30px;
+  z-index: 2;
+}
+
+.service2-text h1,
+.service2-text p {
+  padding: 10px 0;
+  line-height: 1.5;
+}
+
+.service2-text a {
+  text-decoration: none;
+  padding: 10px;
+  border: solid 1px;
+  margin-left: auto;
+  color: #000;
+}
+
+.service2-img {
+  position: absolute;
+  text-align: left;
+  width: 50wv;
+}
+
+/* ↑service ↓inform */
+
+.inform-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.inform-left,
+.inform-right {
+  width: 48%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+.inform-left img,
+.inform-right img {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  padding: 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+.inform-left-text,
+.inform-right-text {
+  z-index: 2;
+  align-self: center;
+}
+
+.inform a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.inform p {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* ↑inform ↓faq */
+
+.faq-wrapper{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.faq p {
+  color: white;
+  background: black;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.faq a {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  width: 60%;
+}
+
+/* ↑faq ↓contact */
+
+.contact {
+  background: url(../img/contact-bg.jpg);
+  height: 500px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  /* align-items: center; */
+  color: white;
+  display: inline-block;
+}
+
+.contact h2 {
+  font-size: 28px;
+  padding: 100px 0 10px;
+}
+
+.contact h3 {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.contact h1 {
+  font-size: 32px;
+  padding: 20px;
+}
+
+.contact p {
+  font-size: 12px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  border: white solid 1px;
+  padding: 10px 20px;
+}
+
+/* ↑contact ↓footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer span {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
