@@ -210,6 +210,7 @@ hr {
 .mission-text a {
   text-decoration: none;
   background-color: white;
+  color: black;
   width: 120px;
   padding: 10px;
   margin: 20px 0;
@@ -374,6 +375,7 @@ hr {
 
 .faq a {
   color: white;
+  text-decoration: none;
   background-color: black;
   padding: 20px;
   width: 60%;
@@ -393,7 +395,7 @@ hr {
   text-align: center;
   /* align-items: center; */
   color: white;
-  display: inline-block;
+  display: block;
 }
 
 .contact h2 {
