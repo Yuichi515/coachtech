@@ -3,7 +3,7 @@
 /*共用*/
 /*=============================*/
 .wrap {
-  width: 1100px;
+  /* width: 1100px; */
   margin: 0 auto;
 }
 
@@ -167,7 +167,8 @@ a {
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: space-around;
-  width: 98%;
+  width: 95%;
+  max-width: 1100px;
 }
 
 .service-item-wrap {
@@ -202,11 +203,14 @@ a {
   flex-direction: column;
   margin: 70px 0;
   height: 500px;
+  width: cover;
   background-color: #222222;
 }
 
 .news-wrap {
-  margin: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .news-title-wrap {
@@ -481,11 +485,16 @@ a {
   .news {
     margin:  100px auto;
     height: 400px;
-    width: 90%;
+    width: 100%;
   }  
+
+  .news-wrap {
+    width: 85%;
+  }
+
   .news-item .btn {
     padding: 10px;
-    width: 70%;
+    width: 90%;
   }
 
   
